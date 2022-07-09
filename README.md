@@ -72,7 +72,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.quantile;
+})();
 })();
 </script>
 ```
@@ -158,6 +160,7 @@ y = myquantile( 0.3 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var randa = randint.factory( 0, 5 );
 var randb = randint.factory();
@@ -175,6 +178,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'p: %d, a: %d, b: %d, Q(p;a,b): %d', p.toFixed( 4 ), a.toFixed( 4 ), b.toFixed( 4 ), v.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
