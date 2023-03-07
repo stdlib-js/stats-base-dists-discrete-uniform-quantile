@@ -30,10 +30,14 @@ The [quantile function][quantile-function] for a [discrete uniform][discrete-uni
 
 <!-- <equation class="equation" label="eq:discrete_uniform_quantile_function" align="center" raw="Q(p) = a + \lfloor p \cdot ( b - a + 1 ) \rfloor" alt="Quantile function for a discrete uniform distribution."> -->
 
-<div class="equation" align="center" data-raw-text="Q(p) = a + \lfloor p \cdot ( b - a + 1 ) \rfloor" data-equation="eq:discrete_uniform_quantile_function">
+```math
+Q(p) = a + \lfloor p \cdot ( b - a + 1 ) \rfloor
+```
+
+<!-- <div class="equation" align="center" data-raw-text="Q(p) = a + \lfloor p \cdot ( b - a + 1 ) \rfloor" data-equation="eq:discrete_uniform_quantile_function">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@591cf9d5c3a0cd3c1ceec961e5c49d73a68374cb/lib/node_modules/@stdlib/stats/base/dists/discrete-uniform/quantile/docs/img/equation_discrete_uniform_quantile_function.svg" alt="Quantile function for a discrete uniform distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -223,7 +227,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
