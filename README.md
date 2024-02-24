@@ -65,13 +65,13 @@ for `0 <= p <= 1`, where `a` is the minimum support and `b` is the maximum suppo
 ## Usage
 
 ```javascript
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@esm/index.mjs';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@v0.2.0-esm/index.mjs';
 ```
 
 #### quantile( p, a, b )
@@ -154,7 +154,7 @@ y = myquantile( 0.3 );
 
 import randint from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@esm/index.mjs';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@v0.2.0-esm/index.mjs';
 
 var randa = randint.factory( 0, 5 );
 var randb = randint.factory();
