@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2025-06-22)
+
+<section class="features">
+
+### Features
+
+-   [`22812ea`](https://github.com/stdlib-js/stdlib/commit/22812ea073b11aa8d64f2085d2a00a15af9973ef) - add C implementation for `stats/base/dists/discrete-uniform/quantile` [(#4666)](https://github.com/stdlib-js/stdlib/pull/4666)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3558](https://github.com/stdlib-js/stdlib/issues/3558)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`22812ea`](https://github.com/stdlib-js/stdlib/commit/22812ea073b11aa8d64f2085d2a00a15af9973ef) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/quantile` [(#4666)](https://github.com/stdlib-js/stdlib/pull/4666) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`13c0b92`](https://github.com/stdlib-js/stdlib/commit/13c0b92efadf3a6d4c83322c32ebc4071950b403) - **bench:** refactor random number generation in `stats/base/dists/discrete-uniform` [(#4887)](https://github.com/stdlib-js/stdlib/pull/4887) _(by Karan Anand)_
 
 </details>
@@ -24,9 +47,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 
