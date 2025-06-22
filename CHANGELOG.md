@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`4928e74`](https://github.com/stdlib-js/stdlib/commit/4928e742f5116fb3a692be1ddba03f9c349f1c36) - **docs:** update examples _(by Athan Reines)_
 -   [`22812ea`](https://github.com/stdlib-js/stdlib/commit/22812ea073b11aa8d64f2085d2a00a15af9973ef) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/quantile` [(#4666)](https://github.com/stdlib-js/stdlib/pull/4666) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`13c0b92`](https://github.com/stdlib-js/stdlib/commit/13c0b92efadf3a6d4c83322c32ebc4071950b403) - **bench:** refactor random number generation in `stats/base/dists/discrete-uniform` [(#4887)](https://github.com/stdlib-js/stdlib/pull/4887) _(by Karan Anand)_
 
@@ -47,8 +48,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav

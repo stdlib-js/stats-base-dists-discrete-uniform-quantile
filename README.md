@@ -163,16 +163,12 @@ var uniform = require( '@stdlib/random-array-uniform' );
 var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
 var quantile = require( '@stdlib/stats-base-dists-discrete-uniform-quantile' );
 
-var p;
-var a;
-var b;
+var p = uniform( 10, 0.0, 1.0 );
+var a = discreteUniform( 10, 0, 5 );
+var b = discreteUniform( 10, 2, 8 );
+
 var v;
 var i;
-
-p = uniform( 10, 0.0, 1.0 );
-a = discreteUniform( 10, 0, 5 );
-b = discreteUniform( 10, 2, 8 );
-
 for ( i = 0; i < 10; i++ ) {
     v = quantile( p[ i ], a[ i ], b[ i ] );
     console.log( 'p: %d, a: %d, b: %d, Q(p;a,b): %d', p[ i ].toFixed( 4 ), a[ i ], b[ i ], v );
@@ -316,11 +312,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
@@ -366,8 +357,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-quantile/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-quantile/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-quantile/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-discrete-uniform-quantile/main/LICENSE
 
 [discrete-uniform-distribution]: https://en.wikipedia.org/wiki/Discrete_uniform_distribution
 
