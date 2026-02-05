@@ -65,13 +65,13 @@ for `0 <= p <= 1`, where `a` is the minimum support and `b` is the maximum suppo
 ## Usage
 
 ```javascript
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@esm/index.mjs';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@v0.3.1-esm/index.mjs';
 ```
 
 #### quantile( p, a, b )
@@ -154,7 +154,7 @@ y = myquantile( 0.3 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@esm/index.mjs';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-quantile@v0.3.1-esm/index.mjs';
 
 var p = uniform( 10, 0.0, 1.0 );
 var a = discreteUniform( 10, 0, 5 );
