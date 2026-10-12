@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-10)
+## Unreleased (2026-10-12)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`05da8d1`](https://github.com/stdlib-js/stdlib/commit/05da8d1cb59a2e611f0e4467667f4ce23130d223) - **test:** migrate `stats/base/dists/discrete-uniform/quantile` to ULP-based assertions [(#15926)](https://github.com/stdlib-js/stdlib/pull/15926) _(by Athan Reines)_
 -   [`acdf74c`](https://github.com/stdlib-js/stdlib/commit/acdf74c933e2adac96f2d81a2e04836ea6a168f9) - **docs:** fix `stats/base/dists/discrete-uniform` JSDoc summaries [(#12669)](https://github.com/stdlib-js/stdlib/pull/12669) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`afb44ae`](https://github.com/stdlib-js/stdlib/commit/afb44ae05ba673e5c777e19761a25dd90bd2d0ac) - **docs:** fix C API parameter name in heading [(#12404)](https://github.com/stdlib-js/stdlib/pull/12404) _(by Philipp Burckhardt)_
