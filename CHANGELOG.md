@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-12)
+## Unreleased (2026-10-17)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
 -   [`05da8d1`](https://github.com/stdlib-js/stdlib/commit/05da8d1cb59a2e611f0e4467667f4ce23130d223) - **test:** migrate `stats/base/dists/discrete-uniform/quantile` to ULP-based assertions [(#15926)](https://github.com/stdlib-js/stdlib/pull/15926) _(by Athan Reines)_
 -   [`acdf74c`](https://github.com/stdlib-js/stdlib/commit/acdf74c933e2adac96f2d81a2e04836ea6a168f9) - **docs:** fix `stats/base/dists/discrete-uniform` JSDoc summaries [(#12669)](https://github.com/stdlib-js/stdlib/pull/12669) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
